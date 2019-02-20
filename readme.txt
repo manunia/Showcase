@@ -1,3 +1,59 @@
+Имеется следующий метод API: POST http://krapipl.imumk.ru:8082/api/mobilev1/update в теле запроса передается объект json
+
+{'data':''}
+
+Возвращается результат вида:
+
+{
+
+"items": [
+
+{
+
+"courseId": "105",
+
+"extId": "Physicon_IMUMK_Course_285524",
+
+"courseHash": "191153621289246190966820186118178188200176110202548",
+
+"title": "Задачник по биологии, демо-версия",
+
+"grade": "8;9;10;11",
+
+"genre": "Задачник",
+
+"subject": "Биология",
+
+"itunes_id": "ru.physicon.imumk.Physicon_IMUMK_Course_285524",
+
+"progress": 0,
+
+"description": "Задачник по биологии, демо-версия",
+
+"status": "demo",
+
+"price": 100,
+
+"shopUrl": null,
+
+"google_id": "ru.fizikon.physicon_imumk_course_285524",
+
+"winstore_id": null,
+
+"isNew": false,
+
+"priceBonus": 5000
+
+}, …
+
+],
+
+"result": "Ok",
+
+"errorMessage": null
+
+}
+
 Необходимо собрать аналог витрины https://imumk.ru/showcase,
 т.е. страницу с плашками и фильтрами по предмету, классу, жанру, поиском по названию.
 Верстка «резиновая», внешний вид плашек полностью идентичен приведенному на странице.
